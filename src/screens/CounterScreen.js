@@ -6,7 +6,7 @@ const CounterScreen = () => {
 
     return (
         <View>
-            <Button 
+            <Button  
                 title="Increase"
                 onPress={() => setCounter(counter + 1)}
             />
