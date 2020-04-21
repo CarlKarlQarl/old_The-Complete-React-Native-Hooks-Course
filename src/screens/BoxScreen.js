@@ -17,26 +17,30 @@ const styles = StyleSheet.create({
         borderWidth: 3,
         borderColor: "black",
         flexDirection: "row",
-        alignItems: "flex-start"
+        alignItems: "flex-start",
+        justifyContent: "space-between"
     },
     textOneStyle: {
+        height: 50,
+        width: 50,
         borderWidth: 3,
         borderColor: "red",
-        flex: 1,
-        alignSelf: "flex-start"
+        backgroundColor: "pink"
     },
     textTwoStyle: {
+        height: 50,
+        width: 50,
         borderWidth: 3,
-        borderColor: "red",
-        flex: 1,
-        alignSelf: "center",
-        position: "absolute"
+        borderColor: "green",
+        backgroundColor: "lightgreen",
+        top: 50
     },
     textThreeStyle: {
+        height: 50,
+        width: 50,
         borderWidth: 3,
-        borderColor: "red",
-        flex: 1,
-        alignSelf: "flex-end"
+        borderColor: "blue",
+        backgroundColor: "lightblue"
     }
 })
 
